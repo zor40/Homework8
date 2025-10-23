@@ -15,55 +15,43 @@ public class Main {
         System.out.println("Task 2");
         for (int i = 0; i < firstArray.length; i++) {
             if (i > 0) {
-                System.out.println(", ");
             }
-            System.out.println(firstArray[i]);
         }
-        System.out.println();
+        System.out.println(Arrays.toString(firstArray));
 
         for (int i = 0; i < secondArray.length; i++) {
             if (i > 0) {
-                System.out.println(", ");
             }
-            System.out.println(secondArray[i]);
         }
-        System.out.println();
+        System.out.println(Arrays.toString(secondArray));
 
         for (int i = 0; i < thirdArray.length; i++) {
             if (i > 0) {
-                System.out.println(", ");
             }
-            System.out.println(thirdArray[i]);
         }
-        System.out.println();
+        System.out.println(Arrays.toString(thirdArray));
 
         System.out.println("Task 3");
         int[] oneArray = new int[]{3, 2, 1};
         double[] twoArray = new double[]{9.986, 7.654, 1.57};
         byte[] threeArray = new byte[]{5};
         for (int i = 0; i < oneArray.length; i++) {
-            System.out.println(oneArray[i]);
             if (i > oneArray.length - 1) {
-                System.out.println(", ");
             }
         }
-        System.out.println();
+        System.out.println(Arrays.toString(oneArray));
 
         for (int i = 0; i < twoArray.length; i++) {
-            System.out.println(twoArray[i]);
             if (i > twoArray.length - 1) {
-                System.out.println(", ");
             }
         }
-        System.out.println();
+        System.out.println(Arrays.toString(twoArray));
 
         for (int i = 0; i < threeArray.length; i++) {
-            System.out.println(threeArray[i]);
             if (i > threeArray.length - 1) {
-                System.out.println(", ");
             }
         }
-        System.out.println();
+        System.out.println(Arrays.toString(threeArray));
 
         System.out.println("Task 4");
         int[] arr = new int[]{1, 2, 3};
